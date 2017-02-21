@@ -118,7 +118,7 @@ transfer_file = "performance.doc"
 bucket_name = "hcg5kujt"
 use_rr=True
 s3_key_name = os.path.basename(transfer_file)
-conn = S3Connection("AWS KEY","l/cVJG2CmvpAXKuBmOtSfudETgIMnZYj29dYXEGK")
+conn = S3Connection("AWS KEY","Key")
 bucket = conn.lookup(bucket_name)
 cores=None
 if bucket is None:
