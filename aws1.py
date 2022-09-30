@@ -115,7 +115,7 @@ def multimap(cores=None):
     pool.terminate()
 #-----------------------------MAIN PROGRAM---------------------------------------------------
 transfer_file = "performance.doc"
-bucket_name = "hcg5kujt"
+bucket_name = "<add something here>"
 use_rr=True
 s3_key_name = os.path.basename(transfer_file)
 conn = S3Connection("AWS KEY","Key")
